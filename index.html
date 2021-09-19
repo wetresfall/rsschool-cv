@@ -2,13 +2,18 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width; initial-scale=1">
         <title>CV - HTML, CSS & Git Basics</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+        <script src="js/rainbow-custom.min.js"></script>
+        <link href="css/theme.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <div class='div_main'>
         <div class="center__div">
         <header>
             <h1><a id="up"></a>CV - HTML & CSS</h1>
@@ -23,11 +28,11 @@
             <a class="nav_link" href="#languages">Languages</a>
         </nav>
         <main class="intro">
-            <img src="images/JackBelnik.png" alt="Jack Belnik" height="300" width="300">
+            <img src="images/JackBelnik.png" alt="Jack Belnik" height="280" width="280">
             <h2>Jack Belnik</h2>
             <p class="intro_p">Learning Front-End Development</p>
         </main>
-            <div class="contacts_and_aside">
+
                 <div class="contacts">
                     <h3 class="nav__down_p_contacts"><a id="contacts"></a>Contacts:</h3>
                     <ul>
@@ -37,12 +42,12 @@
                         <li><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="GitHub"><a class="contacts_link" href="https://github.com/wetresfall">GitHub</a></li>
                     </ul>
                 </div>
-                <article>
+                <article class='article'>
                     <h3><a id="about"></a>About:</h3>
                     <p><br>My name is Jack Belnik and I have just started studying Front-end development.<br>In the future, I want to become a good specialist.<br>Now, I'm going to study hard.<br>That's why I came to the course "The Rolling Scopes - JavaScript / Front-end".<br>I will believe that everything will go well.</p>
                 </article>
-            </div>
-    <div class="first">
+
+
             <div class="skills">
                 <h4 class="nav__down_p"><a id="skills"></a>Skills:</h4>
                 <p>Front-End Development:</p>
@@ -75,33 +80,40 @@
                 <p>JavaScript/Front-end, pre-school</p>
                 <p>JavaScript/Front-end (to be continued)</p></li></ul>
             </div>
-    </div>
-    <div class="second">
+
+
         <div class="experience">
         <h4 class="nav__down_p"><a id="experience"></a>Experience:</h4>
         <p>I am studying platforms such as::</p>
             <ul>
-                <li><a class="contacts_link" href="https://ru.code-basics.com">https://ru.code-basics.com</a></li>
-                <li><a class="contacts_link" href="https://htmlacademy.ru">https://htmlacademy.ru</a></li>
-                <li><a class="contacts_link" href="https://www.sololearn.com">https://www.sololearn.com</a></li>
-                <li><a class="contacts_link" href="https://learn.javascript.ru">https://learn.javascript.ru</a></li>
-                <li><a class="contacts_link" href="https://grasshopper.app">https://grasshopper.app</a></li>
+                <li><a class="contacts_link" href="https://ru.code-basics.com">ru.code-basics.com</a></li>
+                <li><a class="contacts_link" href="https://htmlacademy.ru">htmlacademy.ru</a></li>
+                <li><a class="contacts_link" href="https://www.sololearn.com">sololearn.com</a></li>
+                <li><a class="contacts_link" href="https://learn.javascript.ru">learn.javascript.ru</a></li>
+                <li><a class="contacts_link" href="https://grasshopper.app">grasshopper.app</a></li>
+                <li><a class="contacts_link" href="https://rolling-scopes-school.github.io/wetresfall-JSFEPRESCHOOL/vertical-slider/">RS school 'Double vertical slider'<p><img width="260" height="130" src="images/Untitled.png" alt="vertical-slider screenshot"></p></a><p>Tutorial project for creating a vertical slider. Prepared at the preparatory stage 'Stage 0 RSS school'</p></li>
             </ul>
         </div>
             <div class="code_review">
                 <h4 class="nav__down_p"><a id="code_review"></a>Code Review:</h4>
-                <pre>HTML: available here</pre>
-                <pre>CSS: body {
-                margin: 0px;
-                background: #2D2E2E;
-                font-family: 'Yomogi';
-                font-size: 30px;
-                color: #D1D1D1;
-                text-align: center;
-                }</pre>
-                <pre>JavaScript: <code>alert( 'Hello, world!' );</code></pre>
+                <pre>HTML: 
+<code data-language="html">available here</code></pre>
+                <pre>CSS: 
+<code data-language="css">body {
+margin: 0px;
+background: #2D2E2E;
+font-family: 'Yomogi';
+font-size: 30px;
+color: #D1D1D1;
+text-align: center;
+     }</code></pre>
+                <pre>JavaScript: 
+<code data-language="javascript">alert( 'Hello, world!' );
+function odds(values){
+return values.filter(num=>num%2);
+  }</code></pre>
             </div>
-    </div>
+
         <p class="nav__down_p"><a id="languages"></a>Languages:</p>
             <div class="languages">
                 <ul>
@@ -112,7 +124,7 @@
                     <li>Polish - A1 (just starting out)</li>
                 </ul>
                 <div>
-                    <img src="images/languages.jpg" alt="languages">
+
                 </div>
             </div>
         <aside>
@@ -122,7 +134,7 @@
         </aside>
         <footer>
             <figure>
-                <p class="footer_p"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School JS" height="200" width="500"></p>
+                <p class="footer_p"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School JS" height="50" width="100"></p>
                 <figcaption class="figcaption"><p class="footer_p"><a href="https://rs.school/js/" class="footer_link">Course «JavaScript/Front-end»</a>
                 </figcaption>
             </figure>
@@ -135,5 +147,25 @@
             </details>
         </footer>
     </div>
+        </div>
+        <script>
+            console.log(`Ваша оценка - 150 баллов
+              Отзыв по пунктам ТЗ:
+            Выполненные пункты:
+              1) вёрстка валидная +10
+              2) вёрстка семантическая +20
+              3) для оформления СV используются css-стили +10
+              4) контент размещается в блоке, который горизонтально центрируется на странице. Фоновый цвет, если он есть, тянется во всю ширину страницы +10
+              5) вёрстка адаптивная: ни на одном из разрешений экрана до 320px включительно не появляется горизонтальная полоса прокрутки, при этом всё содержание страницы сохраняется +10
+              6) есть адаптивное бургер-меню. Ссылки в пунктах меню ведут на основные разделы CV. При кликах по пунктам меню реализована плавная прокрутка по якорям. При уменьшении ширины экрана меню становится адаптивным. Внешний вид адаптивного меню можно скопировать с макета музея +10
+              7) на странице СV присутствует изображение - фото или аватарка автора CV, пропорции изображения не искажены, у изображения есть атрибут alt (может быть пустым) +10
+              8) контакты для связи и перечень навыков оформлены в виде списка ul > li +10
+              9) CV содержит контакты для связи, краткую информацию о себе, перечень навыков, информацию об образовании и уровне английского +10
+              10) CV содержит пример вашего кода (например, решение задачи с сайта codewars) с подсветкой кода. Для подсветки кода может использоваться js-библиотека, например, highlight.js +10
+              11) CV содержит изображения-ссылки на выполненные вами проекты. При клике по изображению страница проекта открывается в новой вкладке. У каждого проекта есть название, небольшое описание, указан перечень используемых технологий. +10
+              12) CV выполнено на английском языке +10
+              13) выполнены требования к Pull Request: есть ссылка на задание, скриншот страницы СV, ссылка на деплой страницы CV на GitHub Pages, выполнена самооценка (самооценку расписываем по пунктам критериев оценки, указывая балл за каждый пункт) +10
+              14) дизайн, оформление, качество выполнения CV не ниже чем в примерах CV, приведённых в материалах к заданию (это дополнительные 10 баллов, поэтому некоторый субъективизм в оценке может присутствовать) +10`);
+          </script>
     </body>
 </html>
