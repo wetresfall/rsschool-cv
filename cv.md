@@ -11,23 +11,16 @@ Hello, I'm a Frontend Developer with expertise in React.js, JavaScript, and Type
 
 ### Skills:
 - JavaScript, TypeScript;
-- React;
+- Frameworks: React;
 - HTML, CSS;
 - Preprocessors: SASS, LESS;
 - REST API, Webpack;
 - Node.js;
-- Git, GitHub (https://github.com/wetresfall);
-Others:
-- Figma, jQuery, Bash, Linux.
+- Git, GitHub;
+- Others: Figma, jQuery, Bash, Linux.
 
 ### Code Example:
-function pow(x, n) {
-  if (n == 1) {
-    return x;
-  } else {
-    return x * pow(x, n - 1);
-  }
-}
+console.log("Hello, World!");
 
 ### Experience:
 Library, Portfolio, Museum, Wildlife, cssMemeSlider, Vertical Slider, Responsive Web Design (freeCodeCamp), Gloevk+FlashNews! (HTML Academy)
@@ -36,5 +29,5 @@ Library, Portfolio, Museum, Wildlife, cssMemeSlider, Vertical Slider, Responsive
 Belarusian State University (Master's degree)
 
 ### Languages:
-English - B1 (Pre-Intermediate)
-Belarusian - Native
+- English - B1 (Pre-Intermediate)
+- Belarusian - Native
